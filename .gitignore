@@ -1,0 +1,4 @@
+# the cahe of python
+__pycache__/
+*.pyc
+
