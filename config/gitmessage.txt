@@ -1,0 +1,25 @@
+
+# please follow this:
+# ${title.attribute}: (${title.scope}) ${title.subject}
+# [two-newlines] ${body}
+# [two-newlines] ${footer}
+#
+# details:
+# [title]
+#     - attribute
+#         - feat: new feature
+#         - fix : fix the bug
+#         - docs: about documents
+#         - stl : the style of code
+#         - rfcr: refactor the code but not add new feature
+#         - test: about test
+#         - chor: about helper or config
+#     - scope
+#         : about what the commit for
+#     - subject
+#         : tell shortly
+# [body]
+#     : those details
+# [footer]
+#     : about the issue message
+#
