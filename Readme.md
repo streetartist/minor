@@ -1,25 +1,11 @@
-# Minor 编程语言
+# Minor Language
 
-## 一款用Python编写的编程语言
+## How to test
+Run the command to test at the root of this project (the sign `$` means the
+prompt of `Linux`):
+```shell
+$ make test
+```
 
-~~自古以来从来没有人用解析语言写解析语言~~
-
-## 已经制作了C++版
-
-**不过好像没法运行**
-
-## 版本
-
-*第 0.1.1版
-
-*第 0.1.2版
-
-*第 0.1.3版
-
-希望大家提出问题
-
-提出建议
-
-写出代码
-
-*街头艺术家工作室制作*
+if your computer do not have the command `make`, please click
+[here](https://www.gnu.org/software/make/) for more infomations.
