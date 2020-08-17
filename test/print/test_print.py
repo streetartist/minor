@@ -60,3 +60,17 @@ class TestPrint(unittest.TestCase):
             run(r"print, '\a\b\c'"),
             'abc'
         )
+
+    def test_print_5(self):
+        # newline token
+        self.assertEqual(
+            run(r"print, '\n'"),
+            '\n'
+        )
+
+    def test_print_6(self):
+        # can take a lot of exprations
+        self.assertEqual(
+            run(r'print, "this", "that"'),
+            'thisthat'
+        )
