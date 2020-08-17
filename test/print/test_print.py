@@ -21,7 +21,7 @@ class TestPrint(unittest.TestCase):
         # but endiff result if in string:
         self.assertEqual(
             run('print, "this    is the string..."'),
-            "this     is the string..."
+            "this    is the string..."
         )
 
     def test_print_2(self):
@@ -34,7 +34,7 @@ class TestPrint(unittest.TestCase):
         )
         self.assertEqual(
             run('''print, 'this is the "string"!' '''),
-            "this is the 'string'!"
+            'this is the "string"!'
         )
 
     def test_print_3(self):
@@ -57,6 +57,6 @@ class TestPrint(unittest.TestCase):
     def test_print_4(self):
         # if the character is after `\` sign, just output what it is.
         self.assertEqual(
-            run("print, '\a\b\c'"),
+            run(r"print, '\a\b\c'"),
             'abc'
         )
