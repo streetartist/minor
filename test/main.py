@@ -11,6 +11,7 @@ def suite():
     suite = unittest.TestSuite()
     suite.addTests(unittest.TestLoader().loadTestsFromNames([
         'print.TestPrint',
+        'AST.TestString',
     ]))
     return suite
 
