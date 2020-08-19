@@ -7,4 +7,4 @@ def run(string: str) -> str:
     result = print_re.findall(string)
     if result:
         return AST_string(result[0], 0)[0]
-    return "Error"
+    raise ValueError("not the deal that we want")

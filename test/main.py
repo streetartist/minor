@@ -15,6 +15,7 @@ def suite():
     ]))
     return suite
 
+
 if __name__ == "__main__":
     # use `make test` to run test
     runner = unittest.TextTestRunner()
