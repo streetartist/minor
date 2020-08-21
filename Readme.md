@@ -41,7 +41,7 @@ if your computer do not have the command `make`, please click
 
 - add a test for `AST/string`
 
-- command `if`
+- command `if-elif-else`
   ```minor
   if n > 1:
     do something
@@ -49,4 +49,14 @@ if your computer do not have the command `make`, please click
     do something
   else:
     do something
+  ```
+
+- command `type`
+  ```minor
+  type:
+    text
+    number
+    bool
+    var
+    int\float\...
   ```
