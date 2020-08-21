@@ -6,6 +6,21 @@
 version 0.0.0
 ```
 
+## Usage
+
+build-in function:
+
+- `print`:
+  ```
+  >>> print, 'hello\npeter'
+  ... hello
+    . peter
+  ```
+- `quit`:
+  ```
+  >>> $quit
+  ```
+
 ## How to test
 Run the command to test at the root of this project (the sign `$` means the
 prompt of `Linux`):
@@ -18,10 +33,10 @@ if your computer do not have the command `make`, please click
 
 ## TODO
 
-command `print`:
-```minor
->>> print, "this", "that", " ", 1 + 5 * 10
-... thisthat 51
-```
+- command `print`:
+  ```minor
+  >>> print, "this", "that", " ", 1 + 5 * 10
+  ... thisthat 51
+  ```
 
-add a test for `AST/string`
+- add a test for `AST/string`
