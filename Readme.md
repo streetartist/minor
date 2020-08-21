@@ -40,3 +40,13 @@ if your computer do not have the command `make`, please click
   ```
 
 - add a test for `AST/string`
+
+- command 'if'
+  '''minor
+  if n > 1:
+    do something
+  elif n < 1:
+    do something
+  else:
+    do something
+  '''
