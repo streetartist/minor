@@ -1,5 +1,8 @@
 # Minor Language
 
+## Grammar
+[Grammar](https://github.com/streetartist/minor/Grammar.md)
+
 ## version
 
 ```text
