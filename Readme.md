@@ -4,7 +4,7 @@
 [Grammar](https://github.com/streetartist/minor/blob/master/Grammar.md)
 
 ## Subject
-[Code Parser](https://github.com/streetartist/minor/blob/master/Codeparser.md)
+[Code Parser](https://github.com/streetartist/minor/blob/master/CodeParser.md)
 
 ## Version
 
