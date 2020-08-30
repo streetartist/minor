@@ -1,5 +1,8 @@
 # Minor Language
 
+## Demo
+[Demo](https://github.com/streetartist/minor/blob/master/Demo.md)
+
 ## Grammar
 [Grammar](https://github.com/streetartist/minor/blob/master/Grammar.md)
 
