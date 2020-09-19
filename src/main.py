@@ -79,7 +79,7 @@ class Rand(BinaryOp):
 
 class Pycall(BinaryOp):
 	def eval(self):
-		return exec(self.right.eval())
+		return eval(self.right[0].eval())
 
 from rply import ParserGenerator
 
