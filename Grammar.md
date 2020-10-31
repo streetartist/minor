@@ -1,6 +1,6 @@
 # Minor语言的语法
 
-#TODO
+# TODO
 
 - MTD3 加入Ruby的语法
 
