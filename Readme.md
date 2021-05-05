@@ -1,5 +1,7 @@
 # Minor Language
 
+https://gitee.com/
+
 ## The project we watch
 - [pylite](https://github.com/linuxmooc/pylite)
 pylite是一个用于编译原理教学的python解释器，通过学习它的源代码可以了解python编译器和虚拟机是如何工作的。
